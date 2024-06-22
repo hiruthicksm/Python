@@ -31,7 +31,7 @@ operations={"+":add,
            }
 def calculator():
   print(logo)
-  a=float(input("Enter the first number: "))
+  a=float(input("Enter the first number: ")) 
   flag=True
   while flag:
     for i in operations:
